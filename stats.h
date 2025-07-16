@@ -34,7 +34,7 @@
  *
  * @return void
  */
-void print_statistics(int min, int max, int mean, int median);
+void print_statistics(int min, int max, double mean, double median);
 
 /**
  * @brief Prints an array.
@@ -58,7 +58,7 @@ void print_array(unsigned char* array, unsigned int length);
  *
  * @return The median value of the array.
  */
-int find_median(unsigned char* array, unsigned int length);
+double find_median(unsigned char* array, unsigned int length);
 
 /**
  * @brief Finds the mean of an array.
@@ -70,7 +70,7 @@ int find_median(unsigned char* array, unsigned int length);
  *
  * @return The mean value of the array.
  */
-int find_mean(unsigned char* array, unsigned int length);
+ double find_mean(unsigned char* array, unsigned int length);
 
 /**
  * @brief Finds the maximum of an array.
