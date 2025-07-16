@@ -1,4 +1,4 @@
-# Module 1 Project: Statistical Analytics
+# C1M1 Project: Statistical Analytics
 
 This project is a simple C program that performs statistical analysis on a fixed dataset. The application calculates key statistics such as the minimum, maximum, mean, and median. It is designed to help review C programming syntax, data handling with arrays, and basic command-line compilation.
 
