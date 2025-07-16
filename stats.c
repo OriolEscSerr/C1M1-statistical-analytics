@@ -9,23 +9,53 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c
+ * @brief Implementation of basic statistics operations.
  *
- * <Add Extended Description Here>
+ * Simple application that performs statistical analytics on a dataset (minimum, maximum, mean, median).
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Oriol Escolà Serra
+ * @date 16/07/2025
  *
  */
-
-
 
 #include <stdio.h>
 #include "stats.h"
 
 /* Size of the Data Set */
 #define SIZE (40)
+
+int find_median(unsigned char* array, unsigned int length) {
+  // TODO: Calculate and return the median value
+  return 0;
+}
+
+int find_mean(unsigned char* array, unsigned int length) {
+  // TODO: Calculate and return the mean value
+  return 0;
+}
+
+int find_maximum(unsigned char* array, unsigned int length) {
+  // TODO: Find and return the maximum value
+  return 0;
+}
+
+int find_minimum(unsigned char* array, unsigned int length) {
+  // TODO: Find and return the minimum value
+  return 0;
+}
+
+void sort_array(unsigned char* array, unsigned int length) {
+  // TODO: Sort the array from largest to smallest
+}
+
+void print_statistics(int min, int max, int mean, int median) {
+  // TODO: Print the statistics (min, max, mean, median)
+}
+
+void print_array(unsigned char* array, unsigned int length) {
+  // TODO: Print the array elements
+}
 
 void main() {
 
@@ -35,9 +65,13 @@ void main() {
                               201,   6,  12,  60,   8,   2,   5,  67,
                                 7,  87, 250, 230,  99,   3, 100,  90};
 
-  /* Other Variable Declarations Go Here */
-  /* Statistics and Printing Functions Go Here */
+  /* Other Variable Declarations  */
+  // TODO: Declare variables for min, max, mean, median
 
+  /* Statistics and Printing Functions */
+  // TODO: Call sort_array, find_minimum, find_maximum, find_mean, find_median, print_statistics, print_array
+
+  return 0;
 }
 
-/* Add other Implementation File Code Here */
+/* Other Implementation File Code */
